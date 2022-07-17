@@ -1,1 +1,4 @@
-// Use github API to get data from github and its repositorys
+const github = require('github-api');
+const githubClient = new github();
+
+const fs = require('fs');

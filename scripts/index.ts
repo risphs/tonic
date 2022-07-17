@@ -1,5 +1,6 @@
 #! /usr/bin/env node
 const setup = require('./jsonManager');
+const retreiveData = require('./retreiveData');
 const arg1 = process.argv[2];
 const arg2 = process.argv[3];
 
@@ -8,9 +9,9 @@ if (arg1 === 'setup') {
 } else if (arg1 === 'run') {
 
 } else if(arg1 === 'install') {
-
+    retreiveData.downloadFiles('https://github.com/risphs/tonic.git', '../module');
 } else if(arg1 === 'uninstall') {
-
+    
 } else if(arg1 === 'publish') {
 
 } else if(arg1 === 'help') {
