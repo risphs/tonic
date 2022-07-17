@@ -10,7 +10,7 @@ body:
       description: "Fixing bugs can always be done by yourself through a pull request, We're more then to help you with some parts of implementing your own fix."
       options:
         - label: "I will implement a fix"
-
+        
   - type: textarea
     attributes:
       label: Describe the bug
